@@ -6,3 +6,4 @@ public class AddMethod {
         return a + b;
     }
 }
+
