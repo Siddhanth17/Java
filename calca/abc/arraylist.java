@@ -1,4 +1,4 @@
-impory java.util.ArrayList;
+import java.util.ArrayList;
 public class arraylist {
     public static void main(String[] args) {
         java.util.ArrayList<Integer> list = new java.util.ArrayList<>();
@@ -8,12 +8,11 @@ public class arraylist {
         list.add(4);
         list.add(5);
 
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
-        }
+        system.out.println("ArrayList: " + list);
+        list.remove(2);
+        system.out.println("After removing element at index 2: " + list);
 
-        for (int num: list) {
-            System.out.println(num);
-        }
+
+        system.out.println("Size of ArrayList: " + list.size());
     }
 }
