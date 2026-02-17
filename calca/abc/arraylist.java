@@ -16,3 +16,4 @@ public class arraylist {
         system.out.println("Size of ArrayList: " + list.size());
     }
 }
+
