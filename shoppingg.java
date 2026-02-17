@@ -55,6 +55,10 @@ public class shoppingg{
 
         cart.addProduct(new Product("Laptop", 55000));
         cart.addProduct(new Product("Mouse", 800));
+        cart.addProduct(new product("Keyboard", 1500));
+        cart.addProduct(new Product("Headphones", 2000));
+
+        System.out.println("Cart after adding products:");      
 
         cart.displayCart();
     }
