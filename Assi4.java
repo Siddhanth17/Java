@@ -27,4 +27,3 @@ class DineInOrder extends FoodOrder {
         return amount + (amount * 0.1); // 10% service charge
     }
 }
-s
